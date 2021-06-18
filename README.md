@@ -131,20 +131,20 @@ Below are some example codes of the things I learned during this project:
 
   - Below I add the code that helped me in designing a stylish tooltip for the left data container when viewed in a desktop view
 
-```css
-/* callout styling */
-div.left-data-container:after {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  left: 79%;
-  border-bottom: 40px solid var(--leftDataContainerBG); /* --leftDataContainerBG: hsl(0, 100%, 100%); */
-  border-right: 40px solid transparent;
-  transform: rotate(180deg);
-}
-/* callout styling ends */
-```
+  ```css
+  /* callout styling */
+  div.left-data-container:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 79%;
+    border-bottom: 40px solid var(--leftDataContainerBG); /* --leftDataContainerBG: hsl(0,  100%, 100%); */
+    border-right: 40px solid transparent;
+    transform: rotate(180deg);
+  }
+  /* callout styling ends */
+  ```
 
 ### Useful resources
 
