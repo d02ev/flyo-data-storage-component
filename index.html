@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- stylesheet -->
+  <link href="/style/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class="main-container">
+    <!-- logo and other icon container -->
+    <div class="header-container">
+      <!-- for overall padding of items -->
+      <div class="padding-1">
+        <div class="logo-container"></div>
+        <div class="icon-container">
+          <div class="document icon-border"></div>
+          <div class="folder icon-border margin-lr"></div>
+          <div class="upload icon-border"></div>
+        </div>
+      </div>
+      <!-- padding ends -->
+    </div>
+    <!-- logo and other icon container ends -->
+
+    <!-- progress bar, used data and label container -->
+    <div class="used-data-container">
+      <!-- for overall padding of items -->
+      <div class="padding-2">
+      <p class="used-data-info"><span class="normal-1">You’ve used</span> <span class="bold-1">815 GB</span> <span
+          class="normal-1">of your storage</span></p>
+
+      <!-- progress bar and label container -->
+      <div class="progress-bar-container">
+        <progress class="progress-bar" max="1000" value="815"></progress> <div class="progress-tip-head"></div>
+
+        <!-- progress bar range label container -->
+        <div class="range-container">
+          <p class="range">0 GB</p>
+          <p class="range">1000 GB</p>
+          <!-- progress bar range label container ends -->
+        </div>
+      </div>
+      <!-- progress bar and label container ends -->
+      </div>
+      <!-- padding ends -->
+    </div>
+    <!-- progress bar, used data and label container ends -->
+
+    <!-- data left container -->
+    <div class="left-data-container">
+      <p class="left-data-info"><span class="bold-2">185</span> <span class="normal-2">GB Left</span></p>
+    </div>
+    <!-- data left container ends -->
+  </main>
+
+</body>
+
+</html>

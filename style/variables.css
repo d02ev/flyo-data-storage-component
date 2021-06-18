@@ -1,0 +1,50 @@
+:root {
+    /* colors */
+    /* background color */
+    --headerContainerBG: hsl(228, 56%, 26%);
+    --usedDataContainerBG: var(--headerContainerBG);
+    --iconBG: hsl(229, 57%, 11%);
+    --progressBarBG: var(--iconBG);
+    --leftDataContainerBG: hsl(0, 100%, 100%);
+    --progressTipHeadBG: var(--leftDataContainerBG);
+    --desktopBG: linear-gradient(90deg, var(--iconBG), var(--iconBG));
+    /* background color ends */
+
+    /* progress bar color */
+    --progressBarCol: linear-gradient(90deg ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    /* progress bar color ends */
+    
+    /* text colors */
+    --usedDataInfoTextCol: var(--leftDataContainerBG);
+    --rangeTextCol: var(--leftDataContainerBG);
+    --leftDataInfoBoldTextCol: var(--iconBG);
+    --leftDataInfoNormalTextCol: hsl(229, 7%, 55%);
+    /* text colors end */
+    /* colors end */
+
+    /* typography */
+    /* font family */
+    --fontFam: 'Raleway', sans-serif;
+    /* font family ends */
+
+    /* font size */
+    --usedDataInfoFontSize: 14px;
+    --rangeFontSize: 12px;
+    --leftDataInfoBoldFontSize: 40px;
+    --leftDataInfoNormalFontSize: var(--usedDataInfoFontSize);
+    /* font size ends */
+
+    /* font weight */
+    /* bold */
+    --usedDataInfoBoldFontWt: 700;
+    --leftDataInfoBoldFontWt: var(--usedDataInfoBoldFontWt);
+    --rangeFontWt: var(--usedDataInfoBoldFontWt);
+    /* bold ends */
+
+    /* normal */
+    --usedDataInfoNormalFontWt: 400;
+    --leftDataInfoNormalFontWt: calc(var(--usedDataInfoNormalFontWt) + 300);
+    /* normal ends */
+    /* font weight ends */
+    /* typography ends */
+}
