@@ -57,29 +57,29 @@ Below are some example codes of the things I learned during this project:
 
   - Suppose we have 2 background images each respectively for mobile size (375px) and desktop size (1440px). Let us name the background for mobile be "mobile-bg.svg" and for desktop let it be "desktop-bg.svg", the code below shows how can we effeciently change backgrounds on changing screen sizes.
 
-```css
-body {
-  /* setting up consistent background properties */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* mobile */
-@media screen and (max-width: 400px) {
+  ```css
   body {
+    /* setting up consistent background properties */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* mobile */
+  @media screen and (max-width: 400px) {
+    body {
     background-image: url("/mobile-bg.svg");
+    }
   }
-}
-/* mobile ends */
+  /* mobile ends */
 
-/* desktop */
-@media screen and (min-width: 1025px) {
-  body {
-    background-image: url("/desktop-bg.svg");
+  /* desktop */
+  @media screen and (min-width: 1025px) {
+    body {
+      background-image: url("/desktop-bg.svg");
+    }
   }
-}
-/* desktop ends */
-```
+  /* desktop ends */
+  ```
 
 - #### CSS Variables
 
